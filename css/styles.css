@@ -30,7 +30,6 @@ body {
 }
 
 .board-item {
-    background-color: #CCC0B5;
     width: 100%;
     aspect-ratio: 1;
 
@@ -40,6 +39,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 24pt;
+}
+
+.backgroud-clean {
+    background-color: #CCC0B5;
+}
+
+.backgroud-white {
+    color: #776E65;
+    background-color: #EEE4DA;
 }
 
 .board-grid > div::before {
